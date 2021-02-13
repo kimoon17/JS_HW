@@ -1,3 +1,4 @@
+//CONST
 //B1
 let b1_side = 6;
 let b1_per = 4 * b1_side;
@@ -30,7 +31,7 @@ console.log("Length: " + b4_length);
 let cubeEdge = 6;
 let volume = cubeEdge*cubeEdge*cubeEdge;
 let faceArea = cubeEdge * cubeEdge
-let surfaceArea = 6 * faceArea;
+let surfaceArea = 6 * cubeEdge;
 console.log("B5)");
 console.log("Volume: " + volume);
 console.log("Surface Area: " + surfaceArea);
