@@ -21,5 +21,5 @@ message += " number";
 console.log(message);
 
 function checkEven() {
-    (myNum % 2 == 0) ? message += " even" : message += " odd";
+    (myNum % 2 === 0) ? message += " even" : message += " odd";
 }

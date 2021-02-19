@@ -9,10 +9,8 @@ const c = -6;
 
 if (Math.abs(b-a) > Math.abs(c-a)) {
     console.log("c closer.")
-}
-else if (Math.abs(b-a) < Math.abs(c-a)) {
+} else if (Math.abs(b-a) < Math.abs(c-a)) {
     console.log("b closer.")
-}
-else {
+} else {
     console.log("equally as far.")
 }

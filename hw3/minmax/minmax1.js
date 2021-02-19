@@ -8,7 +8,9 @@ for (let i = 0; i < randomArray.length; i++) {
     randomArray[i] = Math.floor(Math.random() * 100);
 }
 
-randomArray.sort(function compare(a, b) {
+// TODO: try to find min and max firstly
+
+randomArray.sort(function(a, b) { // TODO: you do not have to get name function if you use it only
     if (a < b) {
         return -1;
     } else if (a > b) {

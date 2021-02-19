@@ -10,7 +10,7 @@
 
 function isPerfectSquare(x) {
     const squareRoot = parseInt(Math.sqrt(x));
-    return (squareRoot * squareRoot == x);
+    return (squareRoot * squareRoot === x);
 } 
 
 function isFibbonacci(x) {

@@ -8,7 +8,7 @@ let c = 1;
 let s = 0;
 
 function digitCountSum(k) {
-    while(Math.floor(k / 10) != 0) {
+    while(Math.floor(k / 10) !== 0) {
         c++;
         s += k % 10;
         k = Math.floor(k / 10);
@@ -17,6 +17,6 @@ function digitCountSum(k) {
     return [c, s];
 }
 
-const array = digitCountSum(k);
-console.log("Number of digits: " + array[0]);
-console.log("Sum of digits: " + array[1]);
+const [numberOfDigits, sumOfDigits] = digitCountSum(k); // TODO: you can destructuring assignment data from return array
+console.log("Number of digits: " + numberOfDigits);
+console.log("Sum of digits: " + sumOfDigits);
