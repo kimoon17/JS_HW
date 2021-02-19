@@ -140,7 +140,7 @@ if (integers1 < integers2) {
 } else if (integers1 > integers2) {
     pos = "ahead";
 } else {
-    pos = "same level"
+    pos = "same level";
 }
 
 console.log("Position: " + pos);
