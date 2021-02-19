@@ -6,11 +6,11 @@ let n = 5;
 console.log(getFactorial(n));
 
 function getFactorial(x) { 
-    if (x == 1) {
+    if (x === 1) { // TODO: use "===" when you don't want transform variable to general type
         return 1;
     }
     else {
-        return x * getFactorial(x-1);
+        return x * getFactorial(x-1); // recursion is very good practice ))
     }
 }
 

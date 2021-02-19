@@ -5,11 +5,10 @@
 //The resulting number is an approximate value of the 
 //constant e = exp (1).
 
-const n = 5;
-sum = 1;
-temp = 1;
+const n = 2; // This is "e" constant (like pi), then more n, then more accuracy
+let sum = 1, temp = 1;
 
-for (let i = 1; i <= n; i++) {
+for (let i = 1; i < n; i++) { // TODO: without n
     temp *= i;
     sum += 1/temp;
 }

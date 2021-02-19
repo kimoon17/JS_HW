@@ -12,7 +12,7 @@ while (isMoreDigits) {
     let right = n % 10;
     console.log(right);
     n = Math.floor(n / 10);
-    if (Math.floor(n / 10) == 0) {
+    if (Math.floor(n / 10) === 0) {
         isMoreDigits = false;
         right = n % 10;
         console.log(right);
